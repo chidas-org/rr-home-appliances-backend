@@ -1,0 +1,30 @@
+{
+  "name": "rr-home-appliances-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/chidanand-sisodia/rr-home-appliances-backend#readme",
+  "bugs": {
+    "url": "https://github.com/chidanand-sisodia/rr-home-appliances-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidanand-sisodia/rr-home-appliances-backend.git"
+  },
+  "license": "ISC",
+  "author": "chidanand sisodia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "dotenv": "17.3.1",
+    "cors": "2.8.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.0"
+  }
+}
